@@ -460,7 +460,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
 
                    final List<ClassifierThree.Recognition> mappedRecognitionsmy =
                            new LinkedList<>();
-   //                final List<ClassifierFour.Recognition> mappedRecognitionsmysabah =
+   //                final List<ClassifierFour.Recognition> mappedRecognitionsmybreakfast =
    //                        new LinkedList<>();
                    final List<Classifier.Recognition> mappedRecognitions =
                            new LinkedList<Classifier.Recognition>();
@@ -658,27 +658,27 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
    ///
                                        }
     //                                            final Classifier.Recognition toplamFiyatResult = new Classifier.Recognition(
-   //                                                    "0", "Toplam Fiyat", confidence, location);
+   //                                                    "0", "totalPricet", confidence, location);
    //                                            toplamFiyatResult.setLocation(location);
-   //                                            mappedRecognitions.add(toplamFiyatResult);
+   //                                            mappedRecognitions.add(totalPriceResult);
    //                                            final String resultLabel = detector1.recognizeImage1(secondScaledBitmap);
    //
    //                                            Float confidence = -1f;
    //                                            final Classifier.Recognition result1 = new Classifier.Recognition(
    //                                                    "0", resultLabel, confidence, location);
    //
-   //                                            mappedRecognitions.add(toplamFiyat);
-                                       String toplamFiyatLabel = "Total:" + toplamFiyat + " $";
-                                       float toplamFiyatConfidence = 1.0f;
-                                       RectF toplamFiyatLocation = new RectF(0, 0, 20, 100);
+   //                                            mappedRecognitions.add(totalPrice);
+                                       String totalPriceLabel = "Total:" + totalPrice + " $";
+                                       float totalPriceConfidence = 1.0f;
+                                       RectF totalPriceLocation = new RectF(0, 0, 20, 100);
                                        float offsetX = 550.0f;
-   // Etiketin konumunu sola ka
+    
                                        toplamFiyatLocation.offset(200, offsetX);
-                                       final Classifier.Recognition toplamFiyatResult = new Classifier.Recognition(
-                                               "0", toplamFiyatLabel, toplamFiyatConfidence, toplamFiyatLocation);
-                                       toplamFiyatResult.setLocation(toplamFiyatLocation);
+                                       final Classifier.Recognition totalPriceResult = new Classifier.Recognition(
+                                               "0", totalPriceLabel, totalPriceConfidence, toplamFiyatLocation);
+                                       totalPriceResult.setLocation(totalPriceLocation);
 
-                                       mappedRecognitions.add(toplamFiyatResult);
+                                       mappedRecognitions.add(totalPricetResult);
 
 
    //
