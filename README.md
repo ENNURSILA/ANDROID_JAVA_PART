@@ -1,0 +1,1 @@
+There are always changes. For example, when I added the breakfast yolo model, the application was closing. I change that part. After finding the tray, I moved it to a new screen. I will update when I add breakfast types.
