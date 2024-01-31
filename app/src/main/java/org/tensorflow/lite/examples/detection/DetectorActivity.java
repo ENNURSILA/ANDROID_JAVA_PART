@@ -657,9 +657,9 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
                                            }
    ///
                                        }
-    //                                            final Classifier.Recognition toplamFiyatResult = new Classifier.Recognition(
+    //                                            final Classifier.Recognition totalPriceResult = new Classifier.Recognition(
    //                                                    "0", "totalPricet", confidence, location);
-   //                                            toplamFiyatResult.setLocation(location);
+   //                                            totalPriceResult.setLocation(location);
    //                                            mappedRecognitions.add(totalPriceResult);
    //                                            final String resultLabel = detector1.recognizeImage1(secondScaledBitmap);
    //
@@ -673,7 +673,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
                                        RectF totalPriceLocation = new RectF(0, 0, 20, 100);
                                        float offsetX = 550.0f;
     
-                                       toplamFiyatLocation.offset(200, offsetX);
+                                       totalLocation.offset(200, offsetX);
                                        final Classifier.Recognition totalPriceResult = new Classifier.Recognition(
                                                "0", totalPriceLabel, totalPriceConfidence, toplamFiyatLocation);
                                        totalPriceResult.setLocation(totalPriceLocation);
