@@ -1,5 +1,4 @@
 package org.tensorflow.lite.examples.detection.tflite;
-//bu gercek tepsiti halleden
 import android.content.res.AssetManager;
 
 import java.io.IOException;
@@ -37,7 +36,7 @@ public class DetectorFactoryDinnerFood {
             };
         }
 
-//        else if (modelFilename.equals("ü.tflite")) {
+//        else if (modelFilename.equals("try.tflite")) {
 //            labelFilename = "file:///android_asset/customclasses.txt";
 //            isQuantized = false;
 //            inputSize = 640;
